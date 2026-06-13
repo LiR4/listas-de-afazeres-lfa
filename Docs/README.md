@@ -93,7 +93,7 @@ exclusiva das expressões regulares.
 
 Para a documentação detalhada de cada expressão regular, com a
 justificativa de cada escolha e os casos cobertos, veja
-[`docs/modelagem.md`](docs/modelagem.md).
+[`docs/modelagem.md`](modelagem.md).
 
 ---
 
@@ -164,15 +164,6 @@ Ação:     agendar
 Tag:      #trabalho
 ```
 
-### 4.3 `spec/recognizer_test.rb` — testes
-
-Um pequeno script (sem dependências externas) que executa o
-`TodoRecognizer` contra 10 entradas diferentes — cobrindo todos os tipos
-de horário, data, tag, URL, e-mail, pessoa e ação descritos no
-enunciado — e compara o resultado obtido com o resultado esperado,
-imprimindo `[OK]` ou `[FAIL]` para cada caso.
-
----
 
 ## 5. Como executar
 
@@ -202,23 +193,6 @@ Tag:      #trabalho
 > sair
 Fim.
 ```
-
-### 5.2 Executar os testes
-
-```bash
-ruby spec/recognizer_test.rb
-```
-
-Saída esperada (resumida):
-
-```
-[OK]   Teste 1: Agendar com José reunião às 10:00 amanhã #trabalho
-[OK]   Teste 2: Marcar consulta médica 28 de Fevereiro às 10 horas #saude
-...
-Todos os 10 testes passaram.
-```
-
----
 
 ## 6. Exemplos de entradas suportadas
 
