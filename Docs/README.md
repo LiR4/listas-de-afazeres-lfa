@@ -93,7 +93,7 @@ exclusiva das expressões regulares.
 
 Para a documentação detalhada de cada expressão regular, com a
 justificativa de cada escolha e os casos cobertos, veja
-[`docs/modelagem.md`](modelagem.md).
+[`Docs/modelagem.md`](modelagem.md).
 
 ---
 
@@ -101,13 +101,14 @@ justificativa de cada escolha e os casos cobertos, veja
 
 ```
 .
-├── README.md                 # este arquivo
+├── Docs/
+│   └── README.md                 # este arquivo
 ├── main.rb                    # programa principal (entrada via teclado)
 ├── lib/
 │   └── recognizer.rb          # classe TodoRecognizer (todas as regex)
 ├── spec/
 │   └── recognizer_test.rb     # bateria de testes automatizados
-└── docs/
+└── Docs/
     └── modelagem.md           # documentação detalhada das regex
 ```
 
